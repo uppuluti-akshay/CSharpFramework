@@ -1,0 +1,24 @@
+﻿ RestSharp
+ newtonsoft.json
+
+
+
+ create workFlow:
+1. create IApiClient interface to initiate the api client methods.
+2.created Api constants to maintain all the endpoints and other constant data
+3. create ApiClient class and inheritated from Iapiclient and IDisposal
+
+
+
+
+
+
+
+
+Authenticators:
+
+	Token-based authentication is a process where the client application first sends a request to Authentication server with a valid credentials.
+	The Authentication server sends an Access token to the client as a response.
+	This token contains enough data to identify a particular user and it has an expiry time.
+	The client application then uses the token to access the restricted resources in the next requests until the token is valid. 
+	If the Access token is expired, then the client application can request for a new access token by using Refresh token.
