@@ -40,6 +40,7 @@ namespace UIAutomationTesting.Supports
                         };
                         if (runHeadLess)
                         {
+                            //to run in headless mode
                             Console.WriteLine("Running in HeadLess mode");
                             chromeOptions.AddArguments("--headless");
                         }
