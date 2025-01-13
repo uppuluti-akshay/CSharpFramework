@@ -24,4 +24,3 @@ To get started with this framework, follow these steps:
 •	Use Selenium WebDriver for browser interactions.
 6.	Run the Tests: Execute the tests using MSTest. You can run the tests directly from Visual Studio or via the command line.
 
-
